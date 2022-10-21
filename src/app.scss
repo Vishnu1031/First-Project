@@ -1,0 +1,24 @@
+.app{
+    height: 100vh;
+    // overflow-x: 0;
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color:lightsalmon;
+        position: relative;
+        top: 70px;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+        // overflow-x: hidden;
+
+
+        > *{
+            width: 100vw;
+            height:calc(100vh - 70px);
+            scroll-snap-align:start;
+            
+        }
+    
+}
+
+}
